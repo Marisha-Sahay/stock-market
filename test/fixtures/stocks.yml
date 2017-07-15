@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  security_name: MyString
+  security_symbol: MyString
+  array_of_prices_over_the_duration: MyString
+
+two:
+  security_name: MyString
+  security_symbol: MyString
+  array_of_prices_over_the_duration: MyString
