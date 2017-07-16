@@ -1,0 +1,21 @@
+<div class="container">
+<h1>Best performing stock and the time pariod between May 2004 to May 2014</h1>
+<table class="table-bordered">
+  <thead>
+  <tr>
+  <th class="row-head">Stock Name</th>
+  <th class="row-head">Time Period</th>
+  <th class="row-head">Gain(%)</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @results.each do |result| %>
+    <tr>
+    <td class="row-column"><%= result.name %></td>
+    <td class="row-column"><%= result.min %> to <%= result.max%></td>
+    <td class="row-column"><%= result.profit.round %>%</td>
+    </tr>
+  </tbody>
+<% end %>
+</table>
+</div>
