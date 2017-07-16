@@ -21,6 +21,7 @@ namespace :calculate do
       information[:max] = month[sell]
       information[:profit] = per
       information[:name] = stock.security_name
+      information[:symbol] = stock.security_symbol
       information.save
     end
 

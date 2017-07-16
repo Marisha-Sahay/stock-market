@@ -5,6 +5,7 @@ class CreateResults < ActiveRecord::Migration[5.1]
       t.string :max
       t.float :profit
       t.string :name
+      t.string :symbol
 
       t.timestamps
     end

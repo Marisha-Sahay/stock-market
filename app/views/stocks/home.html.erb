@@ -1,5 +1,10 @@
+<%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
+
 <div class="container">
 <h1>Best performing stock and the time period between May 2004 to May 2014</h1>
+<div class="chart">
+  <%= column_chart Result.group(:symbol).sum(:profit) %>
+</div>
 <table class="table-bordered">
   <thead>
   <tr>
