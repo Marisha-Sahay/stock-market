@@ -5,15 +5,19 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: ruby 2.3.1
 
 * System dependencies
 
 * Configuration
 
 * Database creation
+rake db:create
+rake db:migrate
 
 * Database initialization
+rake import:data
+rake calculate:result
 
 * How to run the test suite
 
