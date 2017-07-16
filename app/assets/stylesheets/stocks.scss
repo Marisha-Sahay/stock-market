@@ -2,7 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .row-column{
-  padding-left: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
 }
 
 .row-head{
@@ -10,4 +12,5 @@
   padding-bottom: 20px;
   background-color: #365899;
   color: white;
+  text-align: center;
 }
